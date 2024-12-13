@@ -22,17 +22,17 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg sm:text-xl text-secondary-dark/80 max-w-2xl mb-14 animate-fade-in [animation-delay:200ms] font-light leading-relaxed">
-            Vi är din TikTok-partner för att skapa autentiskt innehåll som når 
+            vi är din tiktok-partner för att skapa autentiskt innehåll som når 
             din målgrupp och driver verklig tillväxt.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 animate-fade-in [animation-delay:400ms]">
             <button className="flex items-center justify-center gap-2 bg-secondary-dark text-white px-8 py-4 rounded-full hover:bg-black transition-all duration-300 group shadow-lg hover:shadow-xl">
-              Se Vårt Arbete
+              se vårt arbete
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-dark px-8 py-4 rounded-full hover:bg-white transition-all duration-300 border border-gray-200 shadow-md hover:shadow-lg">
-              Kontakta Oss
+              kontakta oss
             </button>
           </div>
         </div>

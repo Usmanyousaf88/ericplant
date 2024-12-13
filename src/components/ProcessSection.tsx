@@ -41,9 +41,9 @@ const ProcessSection = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           {/* Left side - Text */}
           <div className="flex-1 space-y-6 max-w-2xl">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-[#D946EF]" />
-              <p className="text-[#D946EF] font-display text-lg font-semibold">
+            <div className="flex items-center gap-2 border border-secondary-dark/20 rounded-full px-4 py-2 w-fit">
+              <Sparkles className="w-5 h-5 text-secondary-dark" />
+              <p className="font-display text-lg font-semibold text-secondary-dark">
                 Vår Process
               </p>
             </div>

@@ -93,12 +93,12 @@ const ContentTypes = () => {
           </div>
 
           {/* Right side - Image */}
-          <div className="flex-1 relative">
+          <div className="flex-1 relative max-w-md lg:max-w-lg mx-auto">
             <div className="absolute inset-0 bg-gradient-to-tr from-[#FDE1D3]/20 via-[#D3E4FD]/20 to-[#F2FCE2]/20 rounded-3xl transform rotate-3 scale-105" />
             <img
               src="https://res.cloudinary.com/acasting-prod/image/upload/v1734039877/blog-articles/vdwh3uabmqgqjgqbmffh.jpg"
               alt="TikTok Content Types"
-              className="relative rounded-2xl shadow-lg w-full object-cover hover:scale-[1.02] transition-all duration-500"
+              className="relative rounded-2xl shadow-md w-full h-auto object-cover hover:scale-[1.01] transition-all duration-500 max-w-md mx-auto"
             />
           </div>
         </div>

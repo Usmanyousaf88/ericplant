@@ -99,7 +99,7 @@ const Hero = () => {
               <img 
                 src="https://res.cloudinary.com/acasting-prod/image/upload/v1734038138/blog-articles/m2cm59s7dej7iqupjqr6.png" 
                 alt="TikTok Marketing Partner" 
-                className="relative rounded-2xl shadow-2xl w-full hover:scale-[1.02] transition-all duration-500"
+                className="relative rounded-2xl shadow-lg w-[80%] mx-auto hover:scale-[1.02] transition-all duration-500"
               />
             </div>
           </div>

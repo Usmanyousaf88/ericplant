@@ -2,7 +2,7 @@ import { ArrowRight, Heart, Award, Users, Check } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#fdfcfb] to-[#e2d1c3]">
+    <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#F6F6F7] to-[#F1F1F1]">
       <div className="max-w-7xl mx-auto">
         <div className="text-left max-w-3xl">
           <div className="mb-12">
@@ -18,7 +18,7 @@ const Hero = () => {
             <br />
             Engagera.
             <br />
-            <span className="text-[#FF4D4D] opacity-90">Väx.</span>
+            <span className="text-[#1A1F2C] opacity-90">Väx.</span>
           </h1>
           
           <p className="text-lg sm:text-xl text-secondary-dark/80 max-w-2xl mb-14 animate-fade-in [animation-delay:200ms] font-light leading-relaxed">

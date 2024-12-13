@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#F6F6F7] to-[#F1F1F1]">
       <div className="max-w-7xl mx-auto">
         <div className="text-left max-w-3xl">
-          <div className="mb-12">
+          <div className="mb-12 group hover:scale-105 transition-all duration-500">
             <img 
               src="https://res.cloudinary.com/acasting-prod/image/upload/v1734038138/blog-articles/m2cm59s7dej7iqupjqr6.png" 
               alt="TikTok Content" 
@@ -13,7 +13,7 @@ const Hero = () => {
             />
           </div>
           
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8 animate-fade-in bg-gradient-to-r from-secondary-dark to-primary bg-clip-text text-transparent">
+          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8 animate-fade-in bg-gradient-to-r from-secondary-dark via-[#403E43] to-[#8E9196] bg-clip-text text-transparent">
             Skapa.
             <br />
             Engagera.
@@ -48,9 +48,9 @@ const Hero = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Autentisk Koppling */}
-            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:200ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:200ms] hover:scale-[1.02]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/5 text-primary">
+                <div className="p-3 rounded-full bg-[#FDE1D3] text-[#403E43] group-hover:bg-[#403E43] group-hover:text-white transition-colors duration-300">
                   <Heart className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-secondary-dark">Autentisk Koppling</h3>
@@ -61,9 +61,9 @@ const Hero = () => {
             </div>
 
             {/* Bevisade Resultat */}
-            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:300ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:300ms] hover:scale-[1.02]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/5 text-primary">
+                <div className="p-3 rounded-full bg-[#D3E4FD] text-[#403E43] group-hover:bg-[#403E43] group-hover:text-white transition-colors duration-300">
                   <Check className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-secondary-dark">Bevisade Resultat</h3>
@@ -74,9 +74,9 @@ const Hero = () => {
             </div>
 
             {/* TikTok Expertis */}
-            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:400ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:400ms] hover:scale-[1.02]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/5 text-primary">
+                <div className="p-3 rounded-full bg-[#F2FCE2] text-[#403E43] group-hover:bg-[#403E43] group-hover:text-white transition-colors duration-300">
                   <Users className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-secondary-dark">TikTok Expertis</h3>
@@ -87,9 +87,9 @@ const Hero = () => {
             </div>
 
             {/* Kreativ Excellence */}
-            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:500ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:500ms] hover:scale-[1.02]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/5 text-primary">
+                <div className="p-3 rounded-full bg-[#FFDEE2] text-[#403E43] group-hover:bg-[#403E43] group-hover:text-white transition-colors duration-300">
                   <Award className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-secondary-dark">Kreativ Excellence</h3>

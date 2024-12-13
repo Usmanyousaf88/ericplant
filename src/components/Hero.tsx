@@ -40,57 +40,60 @@ const Hero = () => {
         {/* TikTok Partner Section */}
         <div className="mt-32 pt-16 border-t border-gray-100">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8 text-left animate-fade-in [animation-delay:200ms]">
-              <div className="inline-block">
-                <div className="flex items-center gap-3 px-4 py-2 bg-[#FDE1D3]/30 rounded-full w-fit mb-4 group hover:bg-[#FDE1D3]/50 transition-all duration-300">
-                  <Award className="w-5 h-5 text-secondary-dark group-hover:scale-110 transition-transform" />
-                  <p className="text-secondary-dark font-display text-lg">
-                    Officiell TikTok Partner
-                  </p>
-                </div>
-                <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight leading-[1.1] bg-gradient-to-r from-secondary-dark via-[#403E43] to-[#8E9196] bg-clip-text text-transparent">
-                  Kraften i
-                  <br />
-                  UGC Innehåll
-                </h2>
-              </div>
-              
-              <p className="text-secondary-dark/70 text-lg leading-relaxed max-w-xl">
-                I dagens digitala landskap har UGC revolutionerat varumärkesmarknadsföring. Som TikTok-partner använder vi plattformens unika algoritm för att leverera innehåll som utbildar, underhåller och konverterar.
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12">
-                <div className="group hover:scale-105 transition-all duration-300">
-                  <p className="font-display text-4xl font-bold text-secondary-dark mb-2">83%</p>
-                  <p className="text-secondary-dark/70 text-sm leading-relaxed">
-                    av konsumenter föredrar autentisk varumärkeskommunikation framför traditionell reklam
-                  </p>
+            <div className="space-y-8 text-left animate-fade-in [animation-delay:200ms] relative">
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#FDE1D3]/10 via-[#D3E4FD]/10 to-[#F2FCE2]/10 rounded-3xl transform rotate-2"></div>
+              <div className="relative">
+                <div className="inline-block">
+                  <div className="flex items-center gap-3 px-4 py-2 bg-gradient-to-r from-[#FDE1D3]/30 to-[#D3E4FD]/30 rounded-full w-fit mb-4 group hover:from-[#FDE1D3]/50 hover:to-[#D3E4FD]/50 transition-all duration-300">
+                    <Award className="w-5 h-5 text-secondary-dark group-hover:scale-110 transition-transform" />
+                    <p className="text-secondary-dark font-display text-lg">
+                      Officiell TikTok Partner
+                    </p>
+                  </div>
+                  <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight leading-[1.1] bg-gradient-to-r from-secondary-dark via-[#403E43] to-[#8E9196] bg-clip-text text-transparent">
+                    Kraften i
+                    <br />
+                    UGC Innehåll
+                  </h2>
                 </div>
                 
-                <div className="group hover:scale-105 transition-all duration-300">
-                  <p className="font-display text-4xl font-bold text-secondary-dark mb-2">70%</p>
-                  <p className="text-secondary-dark/70 text-sm leading-relaxed">
-                    av konsumenter prioriterar personligt innehåll i sin varumärkesinteraktion
-                  </p>
-                </div>
-                
-                <div className="group hover:scale-105 transition-all duration-300">
-                  <p className="font-display text-4xl font-bold text-secondary-dark mb-2">#1</p>
-                  <p className="text-secondary-dark/70 text-sm leading-relaxed">
-                    TikToks algoritm levererar perfekt matchat innehåll till användare
-                  </p>
-                </div>
-              </div>
+                <p className="text-secondary-dark/70 text-lg leading-relaxed max-w-xl mt-6">
+                  I dagens digitala landskap har UGC revolutionerat varumärkesmarknadsföring. Som TikTok-partner använder vi plattformens unika algoritm för att leverera innehåll som utbildar, underhåller och konverterar.
+                </p>
 
-              <div className="flex flex-col sm:flex-row gap-5 pt-8">
-                <button className="flex items-center justify-center gap-2 bg-secondary-dark text-white px-8 py-4 rounded-full hover:bg-black transition-all duration-300 group shadow-lg hover:shadow-xl">
-                  Starta Din Resa
-                  <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-dark px-8 py-4 rounded-full hover:bg-white transition-all duration-300 border border-gray-200/50 shadow-md hover:shadow-lg">
-                  Se Vår Showreel
-                  <Play size={20} className="group-hover:scale-110 transition-transform" />
-                </button>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12">
+                  <div className="group hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white/80 to-[#FDE1D3]/20 p-6 rounded-xl shadow-sm">
+                    <p className="font-display text-4xl font-bold text-secondary-dark mb-2">83%</p>
+                    <p className="text-secondary-dark/70 text-sm leading-relaxed">
+                      av konsumenter föredrar autentisk varumärkeskommunikation framför traditionell reklam
+                    </p>
+                  </div>
+                  
+                  <div className="group hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white/80 to-[#D3E4FD]/20 p-6 rounded-xl shadow-sm">
+                    <p className="font-display text-4xl font-bold text-secondary-dark mb-2">70%</p>
+                    <p className="text-secondary-dark/70 text-sm leading-relaxed">
+                      av konsumenter prioriterar personligt innehåll i sin varumärkesinteraktion
+                    </p>
+                  </div>
+                  
+                  <div className="group hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white/80 to-[#F2FCE2]/20 p-6 rounded-xl shadow-sm">
+                    <p className="font-display text-4xl font-bold text-secondary-dark mb-2">#1</p>
+                    <p className="text-secondary-dark/70 text-sm leading-relaxed">
+                      TikToks algoritm levererar perfekt matchat innehåll till användare
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-5 pt-8">
+                  <button className="flex items-center justify-center gap-2 bg-secondary-dark text-white px-8 py-4 rounded-full hover:bg-black transition-all duration-300 group shadow-lg hover:shadow-xl">
+                    Starta Din Resa
+                    <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                  </button>
+                  <button className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-dark px-8 py-4 rounded-full hover:bg-white transition-all duration-300 border border-gray-200/50 shadow-md hover:shadow-lg">
+                    Se Vår Showreel
+                    <Play size={20} className="group-hover:scale-110 transition-transform" />
+                  </button>
+                </div>
               </div>
             </div>
 

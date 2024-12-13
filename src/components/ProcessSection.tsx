@@ -1,4 +1,4 @@
-import { Smartphone, Home, MessageSquare, Users } from "lucide-react";
+import { Smartphone, Home, MessageSquare, Users, Sparkles } from "lucide-react";
 
 const ProcessSection = () => {
   const processes = [
@@ -41,9 +41,12 @@ const ProcessSection = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           {/* Left side - Text */}
           <div className="flex-1 space-y-6 max-w-2xl">
-            <p className="text-[#8B5CF6] font-display text-lg font-semibold">
-              Vår Process
-            </p>
+            <div className="flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-[#D946EF]" />
+              <p className="text-[#D946EF] font-display text-lg font-semibold">
+                Vår Process
+              </p>
+            </div>
             <h2 className="text-4xl sm:text-5xl font-display font-bold text-secondary-dark mb-6 leading-tight">
               Skapa Effektivt
               <span className="block bg-gradient-to-r from-secondary-dark via-[#403E43] to-[#8E9196] bg-clip-text text-transparent">

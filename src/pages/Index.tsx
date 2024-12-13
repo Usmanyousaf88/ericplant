@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ContentTypes from "../components/ContentTypes";
+import ProcessSection from "../components/ProcessSection";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <ContentTypes />
+      <ProcessSection />
     </div>
   );
 };

@@ -1,11 +1,11 @@
-import { Smartphone, Home, MessageSquare, Users, Sparkles } from "lucide-react";
+import { Award, Home, MessageSquare, Users } from "lucide-react";
 
 const ProcessSection = () => {
   const processes = [
     {
       title: "Mobil-Först Innehåll",
       description: "Innehåll inspelat med mobil presterar ofta bättre än professionellt kamerainspelat material",
-      icon: Smartphone,
+      icon: Home,
       gradient: "from-[#FDE1D3] to-[#FFB088]"
     },
     {
@@ -42,7 +42,7 @@ const ProcessSection = () => {
           {/* Left side - Text */}
           <div className="flex-1 space-y-6 max-w-2xl">
             <div className="flex items-center gap-2 border border-secondary-dark/20 rounded-full px-4 py-2 w-fit">
-              <Sparkles className="w-5 h-5 text-secondary-dark" />
+              <Award className="w-5 h-5 text-secondary-dark" />
               <p className="font-display text-lg font-semibold text-secondary-dark">
                 Vår Process
               </p>

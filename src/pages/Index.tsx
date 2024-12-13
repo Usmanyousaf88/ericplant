@@ -4,6 +4,7 @@ import ContentTypes from "../components/ContentTypes";
 import ProcessSection from "../components/ProcessSection";
 import UGCBenefits from "../components/UGCBenefits";
 import SelectedCases from "../components/SelectedCases";
+import FAQ from "../components/FAQ";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <UGCBenefits />
       <SelectedCases />
       <ProcessSection />
+      <FAQ />
     </div>
   );
 };

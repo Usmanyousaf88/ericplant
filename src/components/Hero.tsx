@@ -32,6 +32,14 @@ const Hero = () => {
               Kontakta Oss
             </button>
           </div>
+
+          <div className="mt-16">
+            <img 
+              src="https://res.cloudinary.com/acasting-prod/image/upload/v1734038138/blog-articles/m2cm59s7dej7iqupjqr6.png" 
+              alt="TikTok Content" 
+              className="w-full max-w-2xl rounded-lg shadow-xl animate-fade-in [animation-delay:600ms]"
+            />
+          </div>
         </div>
       </div>
     </div>

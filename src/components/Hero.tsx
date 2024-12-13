@@ -5,17 +5,12 @@ const Hero = () => {
     <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#f8f3f1] to-[#f5e9e6] relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Large gradient circle */}
-        <div className="absolute -top-[30%] -right-[20%] w-[70%] h-[70%] rounded-full bg-gradient-to-br from-[#FDE1D3]/20 via-[#f8e4dd]/20 to-[#f5e9e6]/20 blur-3xl" />
+        {/* Large gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#FDE1D3]/5 via-transparent to-[#f5e9e6]/10" />
         
-        {/* Small floating shapes */}
-        <div className="absolute top-[20%] left-[10%] w-24 h-24 rounded-full bg-[#FDE1D3]/20 animate-pulse" />
-        <div className="absolute top-[40%] right-[15%] w-32 h-32 rounded-full bg-[#f8e4dd]/15 animate-pulse [animation-delay:1s]" />
-        <div className="absolute bottom-[20%] left-[20%] w-40 h-40 rounded-full bg-[#f5e9e6]/20 animate-pulse [animation-delay:2s]" />
-        
-        {/* Geometric shapes */}
-        <div className="absolute top-[60%] right-[5%] w-20 h-20 rotate-45 bg-gradient-to-br from-[#FFDEE2]/15 to-[#f8e4dd]/15" />
-        <div className="absolute top-[10%] right-[30%] w-16 h-16 transform rotate-12 bg-gradient-to-tr from-[#FDE1D3]/15 to-[#f5e9e6]/15" />
+        {/* Subtle geometric accents */}
+        <div className="absolute top-[60%] right-[5%] w-20 h-20 rotate-45 bg-gradient-to-br from-[#FFDEE2]/10 to-[#f8e4dd]/10" />
+        <div className="absolute top-[10%] right-[30%] w-16 h-16 transform rotate-12 bg-gradient-to-tr from-[#FDE1D3]/10 to-[#f5e9e6]/10" />
       </div>
 
       <div className="max-w-7xl mx-auto relative">

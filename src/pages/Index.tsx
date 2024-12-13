@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import ContentTypes from "../components/ContentTypes";
 import ProcessSection from "../components/ProcessSection";
 import UGCBenefits from "../components/UGCBenefits";
+import SelectedCases from "../components/SelectedCases";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <Hero />
       <ContentTypes />
       <UGCBenefits />
+      <SelectedCases />
       <ProcessSection />
     </div>
   );

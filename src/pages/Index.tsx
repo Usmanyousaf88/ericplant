@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ContentTypes from "../components/ContentTypes";
 import ProcessSection from "../components/ProcessSection";
+import UGCBenefits from "../components/UGCBenefits";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <ContentTypes />
+      <UGCBenefits />
       <ProcessSection />
     </div>
   );

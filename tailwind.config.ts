@@ -34,6 +34,10 @@ export default {
           dark: "#221F26",
         },
       },
+      fontFamily: {
+        sans: ['Inter var', 'sans-serif'],
+        display: ['Cabinet Grotesk', 'sans-serif'],
+      },
       animation: {
         "gradient-x": "gradient-x 15s ease infinite",
         "gradient-y": "gradient-y 15s ease infinite",

@@ -13,7 +13,7 @@ const Hero = () => {
             />
           </div>
           
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-tight mb-6 animate-fade-in bg-gradient-to-r from-secondary-dark to-primary bg-clip-text text-transparent">
+          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8 animate-fade-in bg-gradient-to-r from-secondary-dark to-primary bg-clip-text text-transparent">
             Skapa.
             <br />
             Engagera.
@@ -21,7 +21,7 @@ const Hero = () => {
             <span className="text-[#1A1F2C] opacity-90">Väx.</span>
           </h1>
           
-          <p className="text-lg sm:text-xl text-secondary-dark/80 max-w-2xl mb-14 animate-fade-in [animation-delay:200ms] font-light leading-relaxed">
+          <p className="font-sans text-lg sm:text-xl text-secondary-dark/70 max-w-2xl mb-14 animate-fade-in [animation-delay:200ms] font-light leading-relaxed">
             Vi är din tiktok-partner för att skapa autentiskt innehåll som når 
             din målgrupp och driver verklig tillväxt.
           </p>
@@ -31,7 +31,7 @@ const Hero = () => {
               Se vårt arbete
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-dark px-8 py-4 rounded-full hover:bg-white transition-all duration-300 border border-gray-200 shadow-md hover:shadow-lg">
+            <button className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-dark px-8 py-4 rounded-full hover:bg-white transition-all duration-300 border border-gray-200/50 shadow-md hover:shadow-lg">
               Kontakta oss
             </button>
           </div>
@@ -39,62 +39,62 @@ const Hero = () => {
 
         {/* UGC Section */}
         <div className="mt-32 max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-secondary-dark mb-8 animate-fade-in">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-secondary-dark mb-8 animate-fade-in">
             Varför Välja UGC?
           </h2>
-          <p className="text-lg text-secondary-dark/80 mb-16 max-w-3xl animate-fade-in [animation-delay:100ms]">
+          <p className="font-sans text-lg text-secondary-dark/70 mb-16 max-w-3xl animate-fade-in [animation-delay:100ms] leading-relaxed">
             I dagens digitala landskap är äkthet nyckeln. UGC-innehåll har revolutionerat hur varumärken ansluter till sin publik.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Autentisk Koppling */}
-            <div className="group p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:200ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:200ms]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                <div className="p-3 rounded-full bg-primary/5 text-primary">
                   <Heart className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
-                <h3 className="text-xl font-semibold text-secondary-dark">Autentisk Koppling</h3>
+                <h3 className="font-display text-xl font-semibold text-secondary-dark">Autentisk Koppling</h3>
               </div>
-              <p className="text-secondary-dark/80">
+              <p className="font-sans text-secondary-dark/70 leading-relaxed">
                 83% av konsumenter litar på användargenererat innehåll för dess äkthet
               </p>
             </div>
 
             {/* Bevisade Resultat */}
-            <div className="group p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:300ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:300ms]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                <div className="p-3 rounded-full bg-primary/5 text-primary">
                   <Check className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
-                <h3 className="text-xl font-semibold text-secondary-dark">Bevisade Resultat</h3>
+                <h3 className="font-display text-xl font-semibold text-secondary-dark">Bevisade Resultat</h3>
               </div>
-              <p className="text-secondary-dark/80">
+              <p className="font-sans text-secondary-dark/70 leading-relaxed">
                 Driv högre engagemang och konverteringar med personligt innehåll
               </p>
             </div>
 
             {/* TikTok Expertis */}
-            <div className="group p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:400ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:400ms]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                <div className="p-3 rounded-full bg-primary/5 text-primary">
                   <Users className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
-                <h3 className="text-xl font-semibold text-secondary-dark">TikTok Expertis</h3>
+                <h3 className="font-display text-xl font-semibold text-secondary-dark">TikTok Expertis</h3>
               </div>
-              <p className="text-secondary-dark/80">
+              <p className="font-sans text-secondary-dark/70 leading-relaxed">
                 Officiell TikTok Creative Partner med djup plattformskunskap
               </p>
             </div>
 
             {/* Kreativ Excellence */}
-            <div className="group p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:500ms]">
+            <div className="group p-8 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:500ms]">
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                <div className="p-3 rounded-full bg-primary/5 text-primary">
                   <Award className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
-                <h3 className="text-xl font-semibold text-secondary-dark">Kreativ Excellence</h3>
+                <h3 className="font-display text-xl font-semibold text-secondary-dark">Kreativ Excellence</h3>
               </div>
-              <p className="text-secondary-dark/80">
+              <p className="font-sans text-secondary-dark/70 leading-relaxed">
                 Professionella UGC-kreatörer som levererar högkvalitativt innehåll
               </p>
             </div>

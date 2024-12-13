@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#fdfcfb] to-[#e2d1c3]">
+    <div className="min-h-screen pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#fdfcfb] to-[#e2d1c3]">
       <div className="max-w-7xl mx-auto">
         <div className="text-left max-w-3xl">
           <div className="mb-12">

@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="text-left max-w-3xl relative">
           <div className="mb-6 inline-flex items-center space-x-2 bg-black/5 px-3 py-1 rounded-full">
             <img src="/lovable-uploads/bcbbdd9d-d2d8-4bfc-a201-0c574268ba7b.png" alt="TikTok Partner" className="h-5 w-auto" />
-            <span className="text-sm text-secondary-dark">Marketing partners</span>
+            <img src="/lovable-uploads/bcbbdd9d-d2d8-4bfc-a201-0c574268ba7b.png" alt="TikTok Partner" className="h-5 w-auto" />
           </div>
           
           <div className="relative z-10">

@@ -1,4 +1,4 @@
-import { ArrowRight, Heart, Award, Users, Check, BrandTiktok } from "lucide-react";
+import { ArrowRight, Heart, Award, Users, Check } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -77,7 +77,7 @@ const Hero = () => {
             <div className="group p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in [animation-delay:400ms]">
               <div className="flex items-center gap-4 mb-4">
                 <div className="p-3 rounded-full bg-primary/10 text-primary">
-                  <BrandTiktok className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                  <Users className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
                 <h3 className="text-xl font-semibold text-secondary-dark">TikTok Expertis</h3>
               </div>

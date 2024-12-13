@@ -24,7 +24,7 @@ const Hero = () => {
             <img 
               src="https://res.cloudinary.com/acasting-prod/image/upload/v1734038138/blog-articles/m2cm59s7dej7iqupjqr6.png" 
               alt="TikTok Content" 
-              className="w-[30%] rounded-xl shadow-2xl animate-fade-in hover:shadow-3xl transition-shadow duration-300"
+              className="w-[80%] sm:w-[50%] md:w-[40%] lg:w-[30%] rounded-xl shadow-2xl animate-fade-in hover:shadow-3xl transition-shadow duration-300"
             />
           </div>
           
